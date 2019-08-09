@@ -12,6 +12,9 @@
 
 #define LED_PIN         PIN_PB00
 
+#define HOLD_PIN        PIN_PA07
+#define HOLD_STATE      1
+
 #define BOOT_USART_MODULE                 SERCOM1
 #define BOOT_USART_MASK                   APBAMASK
 #define BOOT_USART_BUS_CLOCK_INDEX        MCLK_APBAMASK_SERCOM1
